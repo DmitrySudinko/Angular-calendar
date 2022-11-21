@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { SelectorComponent } from './selector/selector.component';
+import { OrganaizerComponent } from './organaizer/organaizer.component';
+import {MomentPipe} from "./shared/moment.pipe";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalendarComponent,
+    SelectorComponent,
+    OrganaizerComponent,
+    MomentPipe
   ],
   imports: [
     BrowserModule,
